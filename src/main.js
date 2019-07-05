@@ -6,7 +6,7 @@ import i18n from './locale'
 import filters from './filters'
 
 import Toast from './components/toast/index'
-Vue.use(Toast);
+Vue.use(Toast)
 
 Vue.config.productionTip = false
 
@@ -18,13 +18,13 @@ Vue.config.productionTip = false
 
 // 全局过滤器
 Object.keys(filters).forEach(filterName => {
-    Vue.filter(filterName, filters[filterName])
+  Vue.filter(filterName, filters[filterName])
 })
 
 /* eslint-disable no-new */
 new Vue({
-    router,
-    store,
-    i18n,
-    render: h => h(App)
+  router,
+  store,
+  i18n,
+  render: h => h(App)
 }).$mount('#app')

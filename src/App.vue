@@ -7,13 +7,13 @@
 </template>
 
 <script>
-	import Layout from "@/layouts";
-	export default {
-		name: "App",
-		components: {
-			Layout
-		}
-	};
+import Layout from '@/layouts'
+export default {
+  name: 'App',
+  components: {
+    Layout
+  }
+}
 </script>
 
 <style lang="scss">

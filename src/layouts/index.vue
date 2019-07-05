@@ -5,17 +5,17 @@
 </template>
 
 <script>
-	export default {
-        name: "Layout",
-		data() {
-			return {};
-		},
-		components: {}
-	};
+export default {
+  name: 'Layout',
+  data() {
+    return {}
+  },
+  components: {}
+}
 </script>
 
 <style lang="scss" scoped>
-    .layout-container {
+    /* .layout-container {
 
-    }
+    } */
 </style>
